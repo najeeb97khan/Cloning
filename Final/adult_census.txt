@@ -1,0 +1,161 @@
+1. Heart Dataset
+2. Breast Cancer Dataset
+3. Adult Census Dataset
+4. Bridges Dataset
+5. Mushrooms Dataset
+Enter your choice: 
+========================== Adult Census Dataset ===========================
+(32561, 107) (32561,)
+RFC  :  0.849267630223
+LR  :  0.797733550488
+KNN  :  0.77552904723
+**************************************************
+Model :  RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False)
+Distribution:  Counter({1: 598, 0: 402})
+Model :  KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='uniform')
+Distribution:  Counter({0: 588, 1: 412})
+Model :  LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Distribution:  Counter({1: 948, 0: 52})
+Blackbox:  RFC  Whitebox:  RFC  Accuracy:  0.68167439575
+Blackbox:  KNN  Whitebox:  RFC  Accuracy:  0.750296366819
+Blackbox:  LR  Whitebox:  RFC  Accuracy:  0.541334725592
+Blackbox:  RFC  Whitebox:  LR  Accuracy:  0.780135745217
+Blackbox:  KNN  Whitebox:  LR  Accuracy:  0.790239857498
+Blackbox:  LR  Whitebox:  LR  Accuracy:  0.771106538497
+Blackbox:  RFC  Whitebox:  KNN  Accuracy:  0.681244433525
+Blackbox:  KNN  Whitebox:  KNN  Accuracy:  0.241024538558
+Blackbox:  LR  Whitebox:  KNN  Accuracy:  0.292527870766
+========================== Adult Census Dataset ===========================
+(32561, 107) (32561,)
+RFC  :  0.847670662571
+LR  :  0.797579997267
+KNN  :  0.77552904723
+**************************************************
+Model :  RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False)
+Distribution:  Counter({1: 522, 0: 478})
+Model :  KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='uniform')
+Distribution:  Counter({0: 576, 1: 424})
+Model :  LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Distribution:  Counter({1: 944, 0: 56})
+Blackbox:  RFC  Whitebox:  RFC  Accuracy:  0.601136328737
+Blackbox:  KNN  Whitebox:  RFC  Accuracy:  0.68996652437
+Blackbox:  LR  Whitebox:  RFC  Accuracy:  0.506163815608
+Blackbox:  RFC  Whitebox:  LR  Accuracy:  0.302447713522
+Blackbox:  KNN  Whitebox:  LR  Accuracy:  0.789779183686
+Blackbox:  LR  Whitebox:  LR  Accuracy:  0.770799422622
+Blackbox:  RFC  Whitebox:  KNN  Accuracy:  0.576671478149
+Blackbox:  KNN  Whitebox:  KNN  Accuracy:  0.241085961733
+Blackbox:  LR  Whitebox:  KNN  Accuracy:  0.263536132183
+========================== Adult Census Dataset ===========================
+(32561, 107) (32561,)
+RFC  :  0.848315464424
+LR  :  0.797579997267
+KNN  :  0.77552904723
+**************************************************
+Model :  RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False)
+Distribution:  Counter({0: 514, 1: 486})
+Model :  KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='uniform')
+Distribution:  Counter({0: 616, 1: 384})
+Model :  LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Distribution:  Counter({1: 943, 0: 57})
+Blackbox:  RFC  Whitebox:  RFC  Accuracy:  0.686360983999
+Blackbox:  KNN  Whitebox:  RFC  Accuracy:  0.749055618685
+Blackbox:  LR  Whitebox:  RFC  Accuracy:  0.492429593686
+Blackbox:  RFC  Whitebox:  LR  Accuracy:  0.793679555296
+Blackbox:  KNN  Whitebox:  LR  Accuracy:  0.789576487209
+Blackbox:  LR  Whitebox:  LR  Accuracy:  0.730567243021
+Blackbox:  RFC  Whitebox:  KNN  Accuracy:  0.651638463192
+Blackbox:  KNN  Whitebox:  KNN  Accuracy:  0.241792328245
+Blackbox:  LR  Whitebox:  KNN  Accuracy:  0.271306163816
+========================== Adult Census Dataset ===========================
+(32561, 107) (32561,)
+RFC  :  0.847271387409
+LR  :  0.797733550488
+KNN  :  0.77552904723
+**************************************************
+Model :  RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False)
+Distribution:  Counter({1: 689, 0: 311})
+Model :  KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='uniform')
+Distribution:  Counter({0: 594, 1: 406})
+Model :  LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Distribution:  Counter({1: 945, 0: 55})
+Blackbox:  RFC  Whitebox:  RFC  Accuracy:  0.567439574952
+Blackbox:  KNN  Whitebox:  RFC  Accuracy:  0.759786247351
+Blackbox:  LR  Whitebox:  RFC  Accuracy:  0.416221860508
+Blackbox:  RFC  Whitebox:  LR  Accuracy:  0.246571051258
+Blackbox:  KNN  Whitebox:  LR  Accuracy:  0.789594914161
+Blackbox:  LR  Whitebox:  LR  Accuracy:  0.770308037222
+Blackbox:  RFC  Whitebox:  KNN  Accuracy:  0.575043764012
+Blackbox:  KNN  Whitebox:  KNN  Accuracy:  0.241116673321
+Blackbox:  LR  Whitebox:  KNN  Accuracy:  0.340499370412
+========================== Adult Census Dataset ===========================
+(32561, 107) (32561,)
+RFC  :  0.84711771817
+LR  :  0.797733550488
+KNN  :  0.77552904723
+**************************************************
+Model :  RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False)
+Distribution:  Counter({1: 521, 0: 479})
+Model :  KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='uniform')
+Distribution:  Counter({0: 569, 1: 431})
+Model :  LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Distribution:  Counter({1: 950, 0: 50})
+Blackbox:  RFC  Whitebox:  RFC  Accuracy:  0.599619176315
+Blackbox:  KNN  Whitebox:  RFC  Accuracy:  0.720764104297
+Blackbox:  LR  Whitebox:  RFC  Accuracy:  0.523288596788
+Blackbox:  RFC  Whitebox:  LR  Accuracy:  0.251306778047
+Blackbox:  KNN  Whitebox:  LR  Accuracy:  0.790086299561
+Blackbox:  LR  Whitebox:  LR  Accuracy:  0.531617579313
+Blackbox:  RFC  Whitebox:  KNN  Accuracy:  0.643039218697
+Blackbox:  KNN  Whitebox:  KNN  Accuracy:  0.241085961733
+Blackbox:  LR  Whitebox:  KNN  Accuracy:  0.275544362888

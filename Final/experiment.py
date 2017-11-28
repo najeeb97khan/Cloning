@@ -14,6 +14,7 @@ from collections import Counter
 from sklearn.linear_model import LogisticRegression, RidgeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis, QuadraticDiscriminantAnalysis
+from sklearn.model_selection import cross_val_score
 
 ## Importing utils
 from utils import generate_pure_random
@@ -43,7 +44,7 @@ class Random(object):
         score, i = [], 0
         for model in models:
             model.fit(self.X, self.y)
-            score.append(model.score(self.X, self.y))
+            score.append(np.mean(np.asarray(cross_val_score(model, self.X, self.y))))
             self.models[names[i]] = model
             i += 1
         return score
@@ -66,8 +67,14 @@ class Random(object):
             for name, y_random in self.y_random.iteritems():
                 
                 try:
-                    model.fit(self.X_random, y_random)
-                    score = model.score(self.X, self.y)
+                    score = 0
+                    for k in range(5):
+                        
+                        model.fit(self.X_random, y_random)
+                        score += model.score(self.X, self.y)
+                    
+                    score = score/5
+                        
                 except:
                     score=np.nan
                 scores.append(score)

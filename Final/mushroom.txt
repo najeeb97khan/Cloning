@@ -1,0 +1,161 @@
+1. Heart Dataset
+2. Breast Cancer Dataset
+3. Adult Census Dataset
+4. Bridges Dataset
+5. Mushrooms Dataset
+Enter your choice: 
+======================== Mushroom Dataset ===========================
+(8124, 112) (8124,)
+RFC  :  0.895111266917
+LR  :  0.904088854195
+KNN  :  0.907915526907
+**************************************************
+Model :  RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False)
+Distribution:  Counter({1: 542, 0: 458})
+Model :  KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='uniform')
+Distribution:  Counter({0: 572, 1: 428})
+Model :  LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Distribution:  Counter({1: 716, 0: 284})
+Blackbox:  RFC  Whitebox:  RFC  Accuracy:  0.597981290005
+Blackbox:  KNN  Whitebox:  RFC  Accuracy:  0.508838010832
+Blackbox:  LR  Whitebox:  RFC  Accuracy:  0.472599704579
+Blackbox:  RFC  Whitebox:  LR  Accuracy:  0.537419990153
+Blackbox:  KNN  Whitebox:  LR  Accuracy:  0.638109305761
+Blackbox:  LR  Whitebox:  LR  Accuracy:  0.691285081241
+Blackbox:  RFC  Whitebox:  KNN  Accuracy:  0.684515017233
+Blackbox:  KNN  Whitebox:  KNN  Accuracy:  0.513663220089
+Blackbox:  LR  Whitebox:  KNN  Accuracy:  0.676144756278
+======================== Mushroom Dataset ===========================
+(8124, 112) (8124,)
+RFC  :  0.905082726272
+LR  :  0.904088854195
+KNN  :  0.907915526907
+**************************************************
+Model :  RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False)
+Distribution:  Counter({1: 503, 0: 497})
+Model :  KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='uniform')
+Distribution:  Counter({0: 584, 1: 416})
+Model :  LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Distribution:  Counter({1: 698, 0: 302})
+Blackbox:  RFC  Whitebox:  RFC  Accuracy:  0.512826193993
+Blackbox:  KNN  Whitebox:  RFC  Accuracy:  0.527498769079
+Blackbox:  LR  Whitebox:  RFC  Accuracy:  0.458911866076
+Blackbox:  RFC  Whitebox:  LR  Accuracy:  0.705071393402
+Blackbox:  KNN  Whitebox:  LR  Accuracy:  0.654480551452
+Blackbox:  LR  Whitebox:  LR  Accuracy:  0.685007385524
+Blackbox:  RFC  Whitebox:  KNN  Accuracy:  0.620630231413
+Blackbox:  KNN  Whitebox:  KNN  Accuracy:  0.574224519941
+Blackbox:  LR  Whitebox:  KNN  Accuracy:  0.698916789759
+======================== Mushroom Dataset ===========================
+(8124, 112) (8124,)
+RFC  :  0.908533668897
+LR  :  0.904088854195
+KNN  :  0.907915526907
+**************************************************
+Model :  RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False)
+Distribution:  Counter({1: 669, 0: 331})
+Model :  KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='uniform')
+Distribution:  Counter({0: 544, 1: 456})
+Model :  LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Distribution:  Counter({1: 682, 0: 318})
+Blackbox:  RFC  Whitebox:  RFC  Accuracy:  0.510290497292
+Blackbox:  KNN  Whitebox:  RFC  Accuracy:  0.521393402265
+Blackbox:  LR  Whitebox:  RFC  Accuracy:  0.464820285574
+Blackbox:  RFC  Whitebox:  LR  Accuracy:  0.461595273264
+Blackbox:  KNN  Whitebox:  LR  Accuracy:  0.661619891679
+Blackbox:  LR  Whitebox:  LR  Accuracy:  0.680822255047
+Blackbox:  RFC  Whitebox:  KNN  Accuracy:  0.666051206302
+Blackbox:  KNN  Whitebox:  KNN  Accuracy:  0.561422944362
+Blackbox:  LR  Whitebox:  KNN  Accuracy:  0.577794190054
+======================== Mushroom Dataset ===========================
+(8124, 112) (8124,)
+RFC  :  0.885382901372
+LR  :  0.904088854195
+KNN  :  0.907915526907
+**************************************************
+Model :  RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False)
+Distribution:  Counter({1: 604, 0: 396})
+Model :  KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='uniform')
+Distribution:  Counter({0: 558, 1: 442})
+Model :  LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Distribution:  Counter({1: 670, 0: 330})
+Blackbox:  RFC  Whitebox:  RFC  Accuracy:  0.570901033973
+Blackbox:  KNN  Whitebox:  RFC  Accuracy:  0.557262432299
+Blackbox:  LR  Whitebox:  RFC  Accuracy:  0.476661742984
+Blackbox:  RFC  Whitebox:  LR  Accuracy:  0.482274741507
+Blackbox:  KNN  Whitebox:  LR  Accuracy:  0.663958641064
+Blackbox:  LR  Whitebox:  LR  Accuracy:  0.716642048252
+Blackbox:  RFC  Whitebox:  KNN  Accuracy:  0.486829148203
+Blackbox:  KNN  Whitebox:  KNN  Accuracy:  0.504431314623
+Blackbox:  LR  Whitebox:  KNN  Accuracy:  0.547021171837
+======================== Mushroom Dataset ===========================
+(8124, 112) (8124,)
+RFC  :  0.891403413308
+LR  :  0.904088854195
+KNN  :  0.907915526907
+**************************************************
+Model :  RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=None, max_features='auto', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+            verbose=0, warm_start=False)
+Distribution:  Counter({0: 503, 1: 497})
+Model :  KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+           weights='uniform')
+Distribution:  Counter({0: 522, 1: 478})
+Model :  LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=100, multi_class='ovr', n_jobs=1,
+          penalty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False)
+Distribution:  Counter({1: 672, 0: 328})
+Blackbox:  RFC  Whitebox:  RFC  Accuracy:  0.515977351059
+Blackbox:  KNN  Whitebox:  RFC  Accuracy:  0.523510585918
+Blackbox:  LR  Whitebox:  RFC  Accuracy:  0.496996553422
+Blackbox:  RFC  Whitebox:  LR  Accuracy:  0.517971442639
+Blackbox:  KNN  Whitebox:  LR  Accuracy:  0.647464303299
+Blackbox:  LR  Whitebox:  LR  Accuracy:  0.734736582964
+Blackbox:  RFC  Whitebox:  KNN  Accuracy:  0.518217626785
+Blackbox:  KNN  Whitebox:  KNN  Accuracy:  0.583579517479
+Blackbox:  LR  Whitebox:  KNN  Accuracy:  0.657434761201
