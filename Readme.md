@@ -57,8 +57,9 @@ This notebook deals with the cloning procedure when the problem is of classifyin
 
 **Neural Networks.ipynb**
 
+```
 The algorithm for cloning was also performed with Neural Networks. Keras was used as an implementation for a simple Artificial Neural Network. The models participating under cloning procedure were same at both the levels.
-
+```
 
 **Class Boundary.ipynb**
 
