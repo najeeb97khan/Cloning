@@ -34,32 +34,32 @@ First install the requirements so that all the libraries required are present in
 
 The project contains different IPython Notebooks where the experiments have been delineated. The different notebooks are described below:
 
-* Same Classifiers.ipynb
+* **Same Classifiers.ipynb**
 
 	This notebook containes the cloning experiments when both the models participating in the cloning procedure are same. 
 	The similar nature of models provide us with the simplicity of setting up hyperparameters and also to be sure that the model in consideration will have enough capacity to be able to solve the problem at hand
 
 
-* Different Classifiers.ipynb
+* **Different Classifiers.ipynb**
 
 	This notebook deals with the cloning procedure when both the models participating are of different statistical significance. This allows us to find how much of a model type matters when cloning is to be achienved.
 
 
-* Genetic Algorithms.ipynb
+* **Genetic Algorithms.ipynb**
 
     Since finding up the features to come up with random data that can be used for the cloning procedure is of paramount importance, we try to find some smart heurestics using Genetic algorithms so that the perfect mutation can be achieved for the relevant set of features. Primitive Genetic Algorithms did not work good for our task of approximating features and hence we left this approach.
 
-* Multiclass Classification.ipynb
+* **Multiclass Classification.ipynb**
 
 	This notebook deals with the cloning procedure when the problem is of classifying the data point into more than one classes. Since the problem is just an extension of the binary classification problem, the proposed algorithm worked fine with Multiclass Classification.
 
 
-* Neural Networks.ipynb
+* **Neural Networks.ipynb**
 
     The algorithm for cloning was also performed with Neural Networks. Keras was used as an implementation for a simple Artificial Neural Network. The models participating under cloning procedure were same at both the levels.
 
 
-* Class Boundary.ipynb
+* **Class Boundary.ipynb**
 
 	Upon trying to find the hyperplane that could capture the essence of classification algorithm, we tried finding the points closest to the class boundary. This procedure was time taking and did not yield any better results and so was abandoned.
 
@@ -74,7 +74,7 @@ The notebook will open in any of the default web browsers.
 ## Built With
 
 * [Python](https://www.python.org/) - Programming language used
-* [TensorFlow](https://www.tensorflow.org//) - Deep Learning library used
+* [Keras](https://keras.io/) - Deep Learning library used
 * [Jupyter Notebook](http://jupyter.org/) - For Ipython Notebook
 
 
