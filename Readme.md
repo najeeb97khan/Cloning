@@ -34,10 +34,9 @@ First install the requirements so that all the libraries required are present in
 
 The project contains different IPython Notebooks where the experiments have been delineated. The different notebooks are described below:
 
-**Same Classifiers.ipynb**
+* Same Classifiers.ipynb
 
 This notebook containes the cloning experiments when both the models participating in the cloning procedure are same. 
-
 The similar nature of models provide us with the simplicity of setting up hyperparameters and also to be sure that the model in consideration will have enough capacity to be able to solve the problem at hand
 
 
@@ -57,9 +56,8 @@ This notebook deals with the cloning procedure when the problem is of classifyin
 
 **Neural Networks.ipynb**
 
-```
 The algorithm for cloning was also performed with Neural Networks. Keras was used as an implementation for a simple Artificial Neural Network. The models participating under cloning procedure were same at both the levels.
-```
+
 
 **Class Boundary.ipynb**
 
